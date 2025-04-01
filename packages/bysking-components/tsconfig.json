@@ -12,5 +12,6 @@
       "bysking-components/*": ["packages/bysking-components/src/*", "*"]
     }
   },
-  "include": [".dumirc.ts", "packages/bysking-components/src/**/*"]
+  "include": [".dumirc.ts", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
